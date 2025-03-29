@@ -1,7 +1,5 @@
 # Portfolio Website
 
----
-
 ## **Tech Stack:**  
 - **HTML5, CSS3, JavaScript**  
 - **Bootstrap** – For responsive styling  
@@ -26,4 +24,3 @@ This is a personal portfolio website built using HTML, CSS, Bootstrap, and jQuer
 ✅ Smooth animations using AOS and Animate.css  
 ✅ Responsive design with clean and modern UI  
 
----
