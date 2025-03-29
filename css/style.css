@@ -723,11 +723,6 @@ fieldset {
     background-color: #425BB5;
     border-radius: 4px;
     transition: all 0.4s ease;
-    color: #fff;
-}
-
-.resumediv:hover a {
-    color: #fff;
 }
 
 .resumediv:hover:after {
