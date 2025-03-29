@@ -1,16 +1,16 @@
 # Portfolio Website
 
+## **Project Overview:**  
+This is a personal portfolio website built using HTML, CSS, Bootstrap, and jQuery, enhanced with AOS and Animate.css for interactive animations. It showcases my skills, experience, projects, and contact details in a visually appealing and user-friendly manner. The website is fully responsive, ensuring smooth performance across devices.
+
+---
+
 ## **Tech Stack:**  
 - **HTML5, CSS3, JavaScript**  
 - **Bootstrap** – For responsive styling  
 - **jQuery** – For DOM manipulation and interactivity  
 - **AOS (Animate On Scroll)** – JavaScript library for scroll animations  
-- **Animate.css** – CSS library for smooth and customizable animations  
-
----
-
-## **Project Overview:**  
-This is a personal portfolio website built using HTML, CSS, Bootstrap, and jQuery, enhanced with AOS and Animate.css for interactive animations. It showcases my skills, experience, projects, and contact details in a visually appealing and user-friendly manner. The website is fully responsive, ensuring smooth performance across devices.
+- **Animate.css** – CSS library for smooth and customizable animations
 
 ---
 
