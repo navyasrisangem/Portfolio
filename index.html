@@ -14,26 +14,7 @@
   <link href="css/aos.css" rel="stylesheet" />
   <!-- main style -->
   <link href="css/style.css" rel="stylesheet" />
-  <!-- vercel-insights -->
-  <script defer src="https://cdn.vercel-insights.com/v1/script.debug.js"></script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9508063888104450"
-    crossorigin="anonymous"></script>
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JJRDX7H6N9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', 'G-JJRDX7H6N9');
-</script>
 
 <body>
   <!-- Preloader -->
@@ -45,43 +26,40 @@
   <!-- ./Preloader -->
 
   <!-- header -->
-  <header class="navbar-fixed-top">
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <!-- <li><a href="#about">About</a></li> -->
-        <li><a href="#skill">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav class="navbar-fixed-top">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skill">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
   <!-- ./header -->
 
   <!-- home -->
-  <div class="section" id="home" data-stellar-background-ratio="0.5">
+  <div class="section" id="home">
     <div class="container">
-      <div class="disply-table">
+      <div class="home-content">
         <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
           <h2>Hi! I'm Navyasri👋</h2>
-          <h3 style="line-height: 1.2;">I am a motivated and versatile individual, always ready to embrace new
-            challenges. With a strong passion
-            for learning, I am committed to delivering exceptional results. My positive attitude and growth mindset
-            enable me to make meaningful contributions and strive for continuous improvement.</h3>
+          <h3 style="line-height: 1.2">
+            I am a motivated and versatile individual, always ready to embrace new challenges. With a strong passion for
+            learning, I am committed to delivering exceptional results. My positive attitude and growth mindset enable
+            me to make meaningful contributions and strive for continuous improvement.
+          </h3>
           <div id="herobtn">
-            <div class="resumediv" id="resumediv">
-              <a class="resume" id="resume" href="NAVYASRI SANGEM - Resume.pdf" target="_blank">View Resume</a>
+            <div class="resumediv">
+              <a class="resume" href="NAVYASRI SANGEM - Resume.pdf" target="_blank">View Resume</a>
             </div>
-            <div class="resumediv" id="githubdiv">
-              <a class="resume" id="github" href="https://github.com/navyasrisangem" target="_blank">GitHub </a>
+            <div class="resumediv">
+              <a class="resume" href="https://github.com/navyasrisangem" target="_blank">GitHub</a>
             </div>
           </div>
         </div>
-        <div id="profilediv">
-          <img src="img/1.jpg" width="400" class="img-responsive" id="profilepic" alt="Profile pic" align="right"
-            data-aos="fade-right" data-aos-delay="0" style="border-radius: 45%;" />
+        <div id="profilediv" data-aos="fade-right" data-aos-delay="0">
+          <img src="img/1.jpg" class="img-responsive" id="profilepic" alt="Profile pic" />
         </div>
       </div>
     </div>
@@ -216,7 +194,6 @@
           </div>
         </div>
       </section>
-
     </div>
     <!-- ./skill -->
 
@@ -245,7 +222,6 @@
                   • Built <strong>RESTful APIs</strong> with Node.js and Express for seamless data handling and
                   server-side operations.
                 </p>
-
               </div>
             </li>
             <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
@@ -326,7 +302,8 @@
                   <h5 class="card-title">Video-library</h5>
                   <p class="card-text">The Video Library is a full-stack <b>responsive</b> application built using the
                     <b>MERN stack (MongoDB, Express.js, React.js, Node.js)</b> & <b>Redux</b> that allows users to
-                    explore, categorize, and manage videos efficiently.</p>
+                    explore, categorize, and manage videos efficiently.
+                  </p>
                   <div class="d-flex justify-content-between">
                     <a href="https://video-library-z8t4.onrender.com/" target="_blank" class="btn tech-btn">
                       🌐 Website
@@ -470,7 +447,6 @@
     </div>
     <!-- ./education -->
 
-
     <!-- contact -->
     <div class="section" id="contact">
       <div class="container">
@@ -481,9 +457,7 @@
         <div class="col-md-4" data-aos="fade-up">
           <h3>Email</h3>
           <p>navyasrisangem@gmail.com</p>
-
           <h3>Social Network</h3>
-
           <ul class="social">
             <li>
               <a href="https://www.linkedin.com/in/navyasri-s-423952200/" target="_blank"><i
@@ -494,7 +468,6 @@
                   id="github-icon-footer"></i></a>
             </li>
           </ul>
-          <div class="clearfix"></div>
           <div class="h-50"></div>
         </div>
         <div class="col-md-8" data-aos="fade-up">
@@ -523,12 +496,9 @@
           <script>
             const form = document.getElementById("contact-form");
             form.addEventListener("submit", formSubmit);
-
             function formSubmit(e) {
               e.preventDefault();
               const formData = new FormData(e.target);
-
-              console.log(formData);
 
               // Check if required fields are empty
               const name = formData.get('name');
@@ -576,67 +546,13 @@
     </div>
     <!-- ./contact -->
 
-
-    <!--DEMO01-->
-    <!-- <div id="animatedModal" class="popup-modal"> -->
-    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-    <!-- <div id="btn-close-modal" class="close-animatedModal close-popup-modal">
-        <i class="ion-close-round"></i>
-      </div>
-      <div class="clearfix"></div>
-      <div class="modal-content">
-        <div class="container">
-          <div class="portfolio-padding">
-            <div class="col-md-8 col-md-offset-2">
-              <h2>
-                HEllo<br />
-                Web-Studios
-              </h2>
-              <div class="h-50"></div>
-              <p>
-                Appropriately maintain standards compliant total linkage with
-                cutting-edge action items. Enthusiastically create seamless
-                synergy rather than excellent value. Quickly promote premium
-                strategic theme areas vis-a-vis.
-              </p>
-              <p>
-                Appropriately maintain standards compliant total linkage with
-                cutting-edge action items. Enthusiastically create seamless
-                synergy rather than excellent value.
-              </p>
-              <br />
-              <br />
-              <img src="img/portfolio/02.jpg" alt="" class="img-responsive" />
-              <br />
-              <br />
-              <p>
-                Appropriately maintain standards compliant total linkage with
-                cutting-edge action items. Enthusiastically create seamless
-                synergy rather than excellent value. Quickly promote premium
-                strategic theme areas vis-a-vis.
-              </p>
-              <p>
-                Appropriately maintain standards compliant total linkage with
-                cutting-edge action items. Enthusiastically create seamless
-                synergy rather than excellent value.
-              </p>
-              <br />
-              <br />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!--  plugins  -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
-
     <!--  main script  -->
     <script src="js/custom.js"></script>
 </body>

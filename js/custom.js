@@ -1,5 +1,3 @@
-// JavaScript Document
-
 $(window).load(function () {
     "use strict";
     // makes sure the whole site is loaded
@@ -63,15 +61,6 @@ $(document).ready(function () {
 
 
 
-    // Parallax
-    var parallax = function () {
-        $(window).stellar();
-    };
-
-    $(function () {
-        parallax();
-    });
-
     // AOS
     AOS.init({
         duration: 1200,
@@ -102,12 +91,6 @@ $(document).ready(function () {
         });
 
     });
-
-    //animatedModal
-    // $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
-    // $("#demo01").animatedModal1();
-    
-    // Contact Form 	
 
     // validate contact form
     $(function () {
@@ -144,27 +127,3 @@ $(document).ready(function () {
 
     });
 });
-
-
-// Contact Form
-
-// submitHandler: function (form) {
-//     $(form).ajaxSubmit({
-//         type: "POST",
-//         data: $(form).serialize(),
-//         url: "process.php",
-//         success: function () {
-//             $('#contact :input').attr('disabled', 'disabled');
-//             $('#contact').fadeTo("slow", 1, function () {
-//                 $(this).find(':input').attr('disabled', 'disabled');
-//                 $(this).find('label').css('cursor', 'default');
-//                 $('#success').fadeIn();
-//             });
-//         },
-//         error: function () {
-//             $('#contact').fadeTo("slow", 1, function () {
-//                 $('#error').fadeIn();
-//             });
-//         }
-//     });
-// }
